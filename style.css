@@ -1,0 +1,304 @@
+@charset "utf-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*ここから*/
+
+body {
+    font-family: 
+    "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+
+
+header {
+    position: relative;
+    height: 60px;
+    background-color: #fff;
+}
+
+
+
+header .logo{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    width: 200px;
+
+}
+
+
+article{
+    margin-bottom: 30px;
+}
+
+
+.logo img{
+    width: 100%;
+
+}
+
+.box_ttl{
+    border-left: 4px solid #402805;
+    padding: 5px 0 5px 10px; 
+
+}
+
+.countainer{
+    padding: 10px;
+}
+
+
+
+#key_visual{
+    width: 100%;
+
+}
+
+#key_visual img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+#Gourmet img{
+    width: 100%;
+    margin-bottom: 10px; 
+    vertical-align: bottom;
+
+    
+
+}
+
+#Gourmet h2{
+    background-color: #B99465;
+    color: #fff; 
+}
+
+#Gourmet h3{
+    margin-bottom: 7px; 
+    font-size: 16px;
+    color: #54514c;
+}
+
+#Gourmet p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #54514c;
+}
+
+#Gourmet .area li{
+    display: inline-block;
+    border-radius: 4px; 
+    padding: 5px 10px;
+    margin-right:5px; 
+    background-color: #B99465;
+    font-size: 10px;
+    color: #fff; 
+
+}
+
+
+#Information h2{
+    background-color: #B99465;
+    color: #fff;
+    font-size: 16px;
+}
+#Information ul{
+     color: #54514c;
+     font-size: 14px;
+     
+}
+#Information li{padding: 10px 10px;}
+
+#Information ul li:nth-child(even) {
+    background-color: #F5F3EF;
+   
+}
+
+#Information time{
+    display:inline-block;
+    margin-bottom:8px; 
+    font-size: 12px;
+}
+
+#Information p::before{
+    content: "▶︎";
+    margin-right:7px;
+    font-size: 12px;
+}
+
+
+main{
+width: 100%;
+}
+
+article p::before{
+content: "-";
+margin: 0 10px;
+}
+
+footer{
+    text-align: center;
+    width: 100%
+}
+
+
+footer .logo{
+    width: 160px;
+    margin: 15px auto 14px;
+}
+
+
+
+footer ul{
+    padding: 20px 0;
+    background-color: #53514C;
+    text-align: center;
+    
+
+}
+
+footer li{
+    width: 280px;
+    height:30px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin: 10px auto;
+    font-size: 14px;
+    line-height: 30px;
+    list-style: none;
+
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+footer p{
+margin-bottom: 9px; 
+color: #54514c;
+}
+
+
+nav ul{
+    display: none;
+}
+
+
+
+
+
+
+h2{
+    padding:13px 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+small{
+    font-size: 10px;
+}
+
